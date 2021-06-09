@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteBase /public/
+
+RewriteCond %{REQUEST_FILENAME} !public/
+
+RewriteRule .* index.php [L]

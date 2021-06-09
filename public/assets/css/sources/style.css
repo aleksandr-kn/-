@@ -1,0 +1,49 @@
+.add-source {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.add-source-icon {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.add-source__inner {
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.add-source__input-title {
+  color: #fff;
+  margin-bottom: 0px;
+}
+.add-source__input {
+  background: transparent;
+  color: #fff;
+  border: none;
+  position: relative;
+  padding: 15px 5px;
+  font-size: 30px;
+}
+.add-source__input-wrap {
+  position: relative;
+}
+.add-source__input-wrap:after {
+  position: absolute;
+  content: '';
+  height: 1px;
+  bottom: 0px; 
+  margin-right:auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: #fff;
+}
+
+.add-source__input::placeholder {
+  color: #A9A9A9;
+  font-size: 30px;
+}

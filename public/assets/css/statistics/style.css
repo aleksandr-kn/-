@@ -1,0 +1,134 @@
+.spendings {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.spendings-icon {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.spendings__inner {
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.spendings__input-title {
+  color: #fff;
+  margin-bottom: 0px;
+}
+.spendings__input {
+  background: transparent;
+  color: #fff;
+  border: none;
+  position: relative;
+  padding: 12px 5px;
+  font-size: 30px;
+}
+.spendings__input-wrap {
+  position: relative;
+}
+.spendings__input-wrap:after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  bottom: 0px; 
+  margin-right:auto;
+  left: 0;
+  right: 0;
+  width: 85%;
+  background: #fff;
+}
+
+.spendings__input::placeholder {
+  color: #fff;
+  font-size: 30px;
+}
+
+#get-statistics {
+  margin-top: 15px;
+  color: #808080;
+  background-color: #f2edf3;
+  border: none;
+  font-size: 18px;
+}
+#get-statistics:hover {
+  background-color: #3e4b5b;
+  color: #fff;
+}
+
+#new_spending_category,
+#new_spending_subcategory {
+  background: #f2edf3;
+  font-size: 20px;
+  border-radius: 6px;
+  border: none;
+  color: #808080;
+  padding: 10px 12px;
+  min-width: 350px;
+}
+
+.subcategories-wrap {
+  display: none;
+}
+
+
+#radioBtn .notActive{
+  color: #808080;
+  background-color: #f2edf3;
+}
+
+.source-select {
+  padding-top: 45px;
+}
+
+.source-select__wrap {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#radioBtn {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.source-select__btn {
+  padding: 15px 5px;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  border: none;
+  transition: all 0.4s;
+}
+
+.source-select__btn.notActive:hover {
+  background-color: #CCC9CD !important;
+}
+
+/* js sldier */
+.amount-select__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.min-slider-handle,
+.max-slider-handle {
+  background-image: none !important;
+  background-color: #3e4b5b !important;
+}
+
+.amount-select__start {
+  margin-right: 12px;
+}
+
+.amount-select__end {
+  margin-left: 12px;
+}
+
+.slider.slider-horizontal {
+  width: 70% !important;
+}
